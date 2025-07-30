@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 
     <title>Practice Weather App</title>
   </head>
   <body>
-    <h1>Weather API</h1>
-
-    <div id="temperature">Loading..</div>
+    <div class="container">
+      <h1>Weather API</h1>
+      <h2>Perth</h2>
+      <div id="temperature" class="temperature">Loading..</div>
+      <img id="icon" />
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
