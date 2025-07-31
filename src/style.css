@@ -5,8 +5,29 @@
   text-align: center;
   border-radius: 10px;
 }
-h1 {
-  font-size: 46px;
+
+.search-form {
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.submit-button {
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  transition: all 0.1s ease-in-out;
+}
+.submit-button:hover {
+  color: blue;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
 }
 h2 {
   font-size: 38px;
