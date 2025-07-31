@@ -1,4 +1,4 @@
-let city = "Himeji";
+let city = "Perth";
 let apiKey = "25ba4b8ct7fc123o0c3d6fccfc118bbd";
 let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
