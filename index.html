@@ -31,26 +31,27 @@
           id="submit-button"
         />
       </form>
-      <div class="city-temp">
-        <div class="weather-app">
-          <h2 id="city"></h2>
-          <div class="weather-details">
-            <div><span id="time"></span>, <span id="description"></span></div>
-            <div>
-              <span>Humidity: <strong id="humidity"></strong>,</span>
-              <span>Wind: <strong id="wind"></strong></span>
+      <div class="main-weather">
+        <div class="city-temp">
+          <div class="weather-app">
+            <h2 id="city"></h2>
+            <div class="weather-details">
+              <div><span id="time"></span>, <span id="description"></span></div>
+              <div>
+                <span>Humidity: <strong id="humidity"></strong>,</span>
+                <span>Wind: <strong id="wind"></strong></span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="units">
-          <h3 id="temperature" class="display-temperature"></h3>
-          <span class="c"> °C</span>
+          <div class="units">
+            <div id="icon"></div>
+
+            <h3 id="temperature" class="display-temperature"></h3>
+            <span class="c"> °C</span>
+          </div>
         </div>
       </div>
-
-      <div id="temperature" class="temperature">Loading..</div>
-      <img id="icon" />
     </div>
   </body>
   <script src="src/index.js"></script>

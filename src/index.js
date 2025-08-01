@@ -8,9 +8,12 @@ function refreshWeather(response) {
   let searchTime = document.querySelector("#time");
   let dt = response.data.dt;
   let timezone = response.data.timezone;
-
+  let iconImage = document.querySelector("#icon");
+  let iconCode = response.data.weather[0].icon;
+  let iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
   let date = new Date((dt + timezone) * 1000);
 
+  iconImage.innerHTML = `<img src="${iconUrl}" class="weather-icon"/>`;
   searchCity.innerHTML = response.data.name;
   searchTime.innerHTML = formatDate(date);
   searchDescription.innerHTML = response.data.weather[0].description;
