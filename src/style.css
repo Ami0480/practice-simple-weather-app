@@ -39,6 +39,18 @@ h3 {
   font-size: 38px;
   margin: 0;
 }
+
+.weather-app {
+  text-align: left;
+}
+.weather-details {
+  font-weight: light;
+  font-size: 14px;
+  opacity: 0.5;
+}
+strong {
+  color: blue;
+}
 .city-temp {
   display: flex;
   justify-content: space-evenly;
@@ -48,8 +60,12 @@ h3 {
   display: flex;
   justify-content: end;
 }
+.display-temperature {
+  font-size: 54px;
+}
 .c {
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 .temperature {
   font-size: 24px;
